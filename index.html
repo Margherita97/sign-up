@@ -10,7 +10,7 @@
     <div class="container">
       <div class="description">
         <h1>
-          Sign up to win <br />
+          Sign up and win <br />
           a free pizza <br />
           at Mario's
         </h1>
@@ -36,7 +36,48 @@
           </div>
         </div>
       </div>
-      <div class="form"></div>
+
+      <div class="box">
+        <form action="action_page.php">
+          <label for="first-name">First name</label>
+          <input
+            type="text"
+            id="first-name"
+            name="firstname"
+            placeholder="Your name..."
+          />
+
+          <label for="last-name">Last name</label>
+          <input
+            type="text"
+            id="last-name"
+            name="lastname"
+            placeholder="Your last name..."
+          />
+
+          <label for="favorite-pizza">Your favorite pizza</label>
+          <select name="favoritepizza" id="favorite-pizza">
+            <option value="margherita">Margherita</option>
+            <option value="capricciosa">Capricciosa</option>
+            <option value="diavola">Diavola</option>
+            <option value="quattro formaggi">Quattro formaggi</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="motivation">Why should you win a pizza for free?</label>
+          <textarea
+            type="text"
+            id="motivation"
+            name="motivation"
+            placeholder="Tell us more"
+            style="height: 200px"
+          >
+Tell us more</textarea
+          >
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </div>
   </body>
 </html>
