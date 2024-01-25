@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    display: block;
+}
+
+.top-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    background-color: tomato;
+    text-align: center;
+}
