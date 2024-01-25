@@ -25,6 +25,13 @@ h1 {
     font-size: 3.4rem;
 }
 
+.pizza {
+    animation-name: rotate;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 .crust {
     width: 200px;
     height: 200px;
@@ -84,4 +91,9 @@ h1 {
 
 .form {
     border: 5px solid white;
+}
+
+@keyframes rotate {
+    from{transform: rotate(-360deg);}
+    to{transform: rotate(360deg);}
 }
