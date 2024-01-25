@@ -1,25 +1,85 @@
 body {
     height: 100vh;
-    width: 100vw;
     margin: 0;
     font-size: 15px;
     background-color: tomato;
 }
 
 .container {
-    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
 .description {
     text-align: center;
-    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 h1 {
     color: white;
     font-size: 3.4rem;
+}
+
+.crust {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(203, 143, 83);
+    background-color: rgb(203, 143, 83);
+}
+
+.sauce {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(199, 4, 4);
+    background-color: rgb(199, 4, 4);
+}
+
+.mozzarella {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid rgb(241, 177, 89);
+    background-color: rgb(241, 177, 89);
+}
+
+.salame {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(161, 2, 2);
+    background-color: rgb(161, 2, 2);
+}
+
+.salame-one {
+    display: flex;
+    gap: 20px;
+}
+
+.salame-two {
+    display: flex;
+    gap: 20px;
+}
+
+.salame-three {
+    display: flex;
+    gap: 20px;
 }
 
 .form {
